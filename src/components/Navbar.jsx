@@ -1,10 +1,10 @@
-import { Navbar, Nav, Container, Image } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 function AppHeader() {
   return (
     <Navbar
       expand="lg"
-      sticky="top"
+      fixed="top"
       bg="myPrimaryLight"
       className="jsutify-content-between"
     >
