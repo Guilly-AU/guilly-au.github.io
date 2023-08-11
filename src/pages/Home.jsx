@@ -3,6 +3,7 @@ import AppHeader from "../components/Navbar";
 import AppShowcase from "../components/Showcase";
 import AppAbout from "../components/About";
 import AppPortfolioCard from "../components/PortfolioCard";
+import AppContact from "../components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <AppShowcase />
         <AppAbout />
         <AppPortfolioCard />
+        <AppContact />
       </main>
     </div>
   );
