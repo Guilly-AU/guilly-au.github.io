@@ -72,7 +72,7 @@ function Portfolio() {
                 <Card bg="light" border="primary">
                   <Card.Header
                     className="
-                  text-center"
+                  text-center bg-myPrimaryLight"
                   >
                     {works.title}
                   </Card.Header>
