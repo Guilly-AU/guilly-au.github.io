@@ -11,7 +11,7 @@ function Contact() {
         </div>
         <Form>
           <Row>
-            <Col className="" lg={6}>
+            <Col className="mb-4" lg={6}>
               <Image
                 src={imgContact}
                 rounded
@@ -22,13 +22,13 @@ function Contact() {
             </Col>
             <Col className="d-flex flex-column justify-content-center" lg={6}>
               <Row>
-                <Col className="mb-4" sm={6}>
+                <Col className="mb-2" sm={6}>
                   <Form.Control
                     type="text"
                     placeholder="Enter your full name"
                   />
                 </Col>
-                <Col sm={6}>
+                <Col className="mb-2" sm={6}>
                   <Form.Control
                     type="email"
                     placeholder="Enter your email address"

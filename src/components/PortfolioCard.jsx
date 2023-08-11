@@ -81,7 +81,7 @@ function Portfolio() {
                     src={works.imageHome}
                     width="100%"
                     height="300px"
-                    className="object-fit-cover"
+                    className="object-fit-contain"
                   />
                   <Card.Body className="text-center">
                     <PortfolioModal work={works} />

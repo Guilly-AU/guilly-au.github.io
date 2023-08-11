@@ -35,7 +35,11 @@ function PortfolioModal({ work }) {
                 <h3 className="opacity-50">Resolution</h3>
                 <p>{work.resolution}</p>
 
-                <Stack className="mb-3" direction="horizontal" gap={2}>
+                <Stack
+                  className="mb-3 flex-wrap"
+                  direction="horizontal"
+                  gap={2}
+                >
                   {work.badges.split(",").map((badge, index) => (
                     <Badge key={index} pill bg="primary">
                       {badge}
@@ -47,8 +51,8 @@ function PortfolioModal({ work }) {
                 <Image
                   src={work.imageHome}
                   width="100%"
-                  height="300px"
-                  className="object-fit-cover border"
+                  height="100%"
+                  className="object-fit-contain border"
                 ></Image>
               </Col>
             </Row>

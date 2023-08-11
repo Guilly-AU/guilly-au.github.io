@@ -42,7 +42,7 @@ function Showcase() {
             <div className="mx-auto my-5">
               <a
                 className="pe-4"
-                href="https://www.linkedin.com/in/guillaume-damenez-4a71b6264/"
+                href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
                 target="_blank"
                 rel="noreferrer"
               >
