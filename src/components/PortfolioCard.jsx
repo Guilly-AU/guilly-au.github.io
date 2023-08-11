@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
+import PortfolioModal from "./PortfolioModal";
 
 function Portfolio() {
   const works = [
@@ -82,7 +83,9 @@ function Portfolio() {
                     height="300px"
                     className="object-fit-cover"
                   />
-                  <Card.Body className="text-center"></Card.Body>
+                  <Card.Body className="text-center">
+                    <PortfolioModal work={works} />
+                  </Card.Body>
                 </Card>
               </Col>
             );
