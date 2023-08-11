@@ -20,21 +20,20 @@ function Showcase() {
                     .typeString(
                       `<strong><span style="color: #0d6efd; font-size: 2rem">Guillaume Damenez</span></strong><br />`
                     )
-                    .pauseFor(300)
+                    .pauseFor(1000)
                     .typeString(
-                      'I am <strong><span style="color: #0d6efd;font-size: 2rem">front end developer</span></strong>'
-                    )
-                    .pauseFor(500)
-                    .deleteChars(20)
-                    .typeString(
-                      '<strong><span style="color: #0d6efd;font-size: 2rem">back end developer</span></strong>'
-                    )
-                    .pauseFor(500)
-                    .deleteChars(18)
-                    .typeString(
-                      '<strong><span style="color: #0d6efd;font-size: 2rem">full stack web developer</span></strong>'
+                      'I am a <strong><span style="color: #0d6efd;font-size: 2rem">front-end developer.</span></strong>'
                     )
                     .pauseFor(1000)
+                    .deleteChars(21)
+                    .typeString(
+                      '<strong><span style="color: #0d6efd;font-size: 2rem">back-end developer.</span></strong>'
+                    )
+                    .pauseFor(1000)
+                    .deleteChars(19)
+                    .typeString(
+                      '<strong><span style="color: #0d6efd;font-size: 2rem">full-stack web developer!</span></strong>'
+                    )
                     .start();
                 }}
               />
