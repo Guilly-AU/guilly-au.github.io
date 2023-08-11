@@ -8,7 +8,7 @@ function Footer() {
       <div>
         <a
           className="pe-4"
-          href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+          href="https://linkedin.com/in/guillaume-damenez-4a71b6264/"
           target="_blank"
           rel="noreferrer"
         >
