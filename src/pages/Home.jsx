@@ -4,6 +4,7 @@ import AppShowcase from "../components/Showcase";
 import AppAbout from "../components/About";
 import AppPortfolioCard from "../components/PortfolioCard";
 import AppContact from "../components/Contact";
+import AppFooter from "../components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <AppPortfolioCard />
         <AppContact />
       </main>
+      <footer id="footer">
+        <AppFooter />
+      </footer>
     </div>
   );
 }
