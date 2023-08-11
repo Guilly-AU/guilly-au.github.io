@@ -1,5 +1,5 @@
 import { Row, Col, Image, Container } from "react-bootstrap";
-import Avatar from "../assets/Avatar.png";
+import Avatar from "../assets/emoji.gif";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 
