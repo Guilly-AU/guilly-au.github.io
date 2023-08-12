@@ -2,7 +2,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 function AppHeader() {
   return (
-    <Navbar sticky="top" expand="md" bg="myPrimaryLight">
+    <Navbar fixed="top" expand="md" bg="myPrimaryLight">
       <Container>
         <Navbar.Brand className="text-primary fs-3 fw-bold" href="#home">
           GD

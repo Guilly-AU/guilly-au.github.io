@@ -8,36 +8,37 @@ function Showcase() {
     <section className="my-5">
       <Container>
         <Row className="">
-          <Col sm="6" className="d-flex flex-column justify-content-center">
-            <h3 className="">
-              <Typewriter
-                options={{}}
-                onInit={(typewriter) => {
-                  typewriter
-                    .pauseFor(300)
-                    .typeString(`Hello, my name is<br />`)
-                    .pauseFor(300)
-                    .typeString(
-                      `<strong><span style="color: #0d6efd; font-size: 2rem">Guillaume Damenez</span></strong><br />`
-                    )
-                    .pauseFor(1000)
-                    .typeString(
-                      'I am a <strong><span style="color: #0d6efd;font-size: 2rem">front-end developer.</span></strong>'
-                    )
-                    .pauseFor(1000)
-                    .deleteChars(21)
-                    .typeString(
-                      '<strong><span style="color: #0d6efd;font-size: 2rem">back-end developer.</span></strong>'
-                    )
-                    .pauseFor(1000)
-                    .deleteChars(19)
-                    .typeString(
-                      '<strong><span style="color: #0d6efd;font-size: 2rem">full-stack web developer!</span></strong>'
-                    )
-                    .start();
-                }}
-              />
-            </h3>
+          <Col
+            sm="6"
+            className="d-flex flex-column justify-content-center fs-2"
+          >
+            <Typewriter
+              options={{}}
+              onInit={(typewriter) => {
+                typewriter
+                  .pauseFor(300)
+                  .typeString(`Hello, my name is<br />`)
+                  .pauseFor(300)
+                  .typeString(
+                    `<strong><span style="color: #0d6efd;">Guillaume Damenez</span></strong><br />`
+                  )
+                  .pauseFor(1000)
+                  .typeString(
+                    'I am a <strong><span style="color: #0d6efd;">front-end web developer.</span></strong>'
+                  )
+                  .pauseFor(1000)
+                  .deleteChars(25)
+                  .typeString(
+                    '<strong><span style="color: #0d6efd;">back-end web developer.</span></strong>'
+                  )
+                  .pauseFor(1000)
+                  .deleteChars(23)
+                  .typeString(
+                    '<strong><span style="color: #0d6efd;font-size: 2rem">full-stack web developer!</span></strong>'
+                  )
+                  .start();
+              }}
+            />
             <div className="mx-auto my-5">
               <a
                 className="pe-4"
