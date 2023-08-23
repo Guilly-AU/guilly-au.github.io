@@ -22,7 +22,7 @@ function About() {
       Icon: SiCss3,
     },
     {
-      technology: "Javascripte",
+      technology: "JavaScript",
       achievement: 80,
       Icon: SiJavascript,
     },
