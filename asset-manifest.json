@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c6357f5b.css",
+    "main.js": "/portfolio/static/js/main.8d88e3a4.js",
+    "static/media/Kasa-1.jpg": "/portfolio/static/media/Kasa-1.de73ceda9896df36097f.jpg",
+    "static/media/Nina-Carducci-1.jpg": "/portfolio/static/media/Nina-Carducci-1.24dbce03b252495fa25f.jpg",
+    "static/media/Sophie-Bruel-1.jpg": "/portfolio/static/media/Sophie-Bruel-1.aeee3e1e8e8692e7df34.jpg",
+    "static/media/Booki-1.jpg": "/portfolio/static/media/Booki-1.f066e088ccfede6ff0ed.jpg",
+    "static/media/Mon-Vieux-Grimoire-1.jpg": "/portfolio/static/media/Mon-Vieux-Grimoire-1.7443caa4d8292ee3c18b.jpg",
+    "static/media/emoji.gif": "/portfolio/static/media/emoji.75d97d4a3afe3581f4f9.gif",
+    "static/media/contact-me.jpg": "/portfolio/static/media/contact-me.6c3504ad88efb82275f2.jpg",
+    "static/media/scren-dev.webp": "/portfolio/static/media/scren-dev.6f201535145168d88652.webp",
+    "index.html": "/portfolio/index.html",
+    "main.c6357f5b.css.map": "/portfolio/static/css/main.c6357f5b.css.map",
+    "main.8d88e3a4.js.map": "/portfolio/static/js/main.8d88e3a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6357f5b.css",
+    "static/js/main.8d88e3a4.js"
+  ]
+}
